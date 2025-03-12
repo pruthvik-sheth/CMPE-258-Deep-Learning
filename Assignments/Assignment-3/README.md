@@ -7,6 +7,7 @@ This repository contains comprehensive exploration of tensor operations in both 
 - Basic tensor operations and manipulations
 - Advanced einsum operations with practical examples
 - Video walkthrough: [TensorFlow Tensor Operations](https://youtu.be/tensorflow-tensor-walkthrough)
+- Colab: [TensorFlow Tensor Operations](https://youtu.be/tensorflow-tensor-walkthrough)
 
 ### Key Topics Covered
 
@@ -23,6 +24,7 @@ This repository contains comprehensive exploration of tensor operations in both 
 - Comprehensive tensor operations and manipulations
 - Integration with einops library
 - Video walkthrough: [PyTorch Tensor Operations](https://youtu.be/pytorch-tensor-walkthrough)
+- Colab: [TensorFlow Tensor Operations](https://youtu.be/tensorflow-tensor-walkthrough)
 
 ### Key Topics Covered
 
