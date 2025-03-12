@@ -9,6 +9,7 @@ This repository contains implementations of three deep learning models for class
 - Implementation in Google Colab with full model architecture diagram
 - Integration with Weights & Biases (or TensorFlow TensorBoard)
 - Video walkthrough: [YouTube Link](https://youtu.be/classification-model-walkthrough)
+- Colab: [Colab Link](https://youtu.be/classification-model-walkthrough)
 - Metrics:
   - Overall accuracy, precision, recall, and F1 score
   - Per-class accuracy, precision, recall, and F1 score
@@ -21,6 +22,7 @@ This repository contains implementations of three deep learning models for class
 - Implementation in Google Colab with full model architecture diagram
 - Integration with Weights & Biases (or TensorFlow TensorBoard)
 - Video walkthrough: [YouTube Link](https://youtu.be/regression-model-walkthrough)
+- Colab: [Colab Link](https://youtu.be/classification-model-walkthrough)
 - Metrics:
   - MSE, MAE, RMSE
   - Residual plots
@@ -33,6 +35,7 @@ This repository contains implementations of three deep learning models for class
 - Implementation in Google Colab with full model architecture diagram
 - Integration with Weights & Biases (or TensorFlow TensorBoard)
 - Video walkthrough: [YouTube Link](https://youtu.be/image-classification-walkthrough)
+- Colab: [Colab Link](https://youtu.be/classification-model-walkthrough)
 - Metrics:
   - Overall accuracy, precision, recall, and F1 score
   - Per-class accuracy, precision, recall, and F1 score
