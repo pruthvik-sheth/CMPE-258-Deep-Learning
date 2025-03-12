@@ -9,7 +9,7 @@ This repository contains implementations of three deep learning models for class
 - Implementation in Google Colab with full model architecture diagram
 - Integration with Weights & Biases (or TensorFlow TensorBoard)
 - Video walkthrough: [YouTube Link](https://youtu.be/classification-model-walkthrough)
-- Colab: [Colab Link](https://youtu.be/classification-model-walkthrough)
+- Colab: [Colab Link](https://colab.research.google.com/github/pruthvik-sheth/CMPE-258-Deep-Learning/blob/main/Assignments/Assignment-2/classification/IRIS_Classification.ipynb)
 - Metrics:
   - Overall accuracy, precision, recall, and F1 score
   - Per-class accuracy, precision, recall, and F1 score
@@ -22,7 +22,7 @@ This repository contains implementations of three deep learning models for class
 - Implementation in Google Colab with full model architecture diagram
 - Integration with Weights & Biases (or TensorFlow TensorBoard)
 - Video walkthrough: [YouTube Link](https://youtu.be/regression-model-walkthrough)
-- Colab: [Colab Link](https://youtu.be/classification-model-walkthrough)
+- Colab: [Colab Link](https://colab.research.google.com/github/pruthvik-sheth/CMPE-258-Deep-Learning/blob/main/Assignments/Assignment-2/classification/California_Housing_Regression.ipynb)
 - Metrics:
   - MSE, MAE, RMSE
   - Residual plots
@@ -35,7 +35,7 @@ This repository contains implementations of three deep learning models for class
 - Implementation in Google Colab with full model architecture diagram
 - Integration with Weights & Biases (or TensorFlow TensorBoard)
 - Video walkthrough: [YouTube Link](https://youtu.be/image-classification-walkthrough)
-- Colab: [Colab Link](https://youtu.be/classification-model-walkthrough)
+- Colab: [Colab Link](https://colab.research.google.com/github/pruthvik-sheth/CMPE-258-Deep-Learning/blob/main/Assignments/Assignment-2/classification/CNN_Image_Classification.ipynb)
 - Metrics:
   - Overall accuracy, precision, recall, and F1 score
   - Per-class accuracy, precision, recall, and F1 score
