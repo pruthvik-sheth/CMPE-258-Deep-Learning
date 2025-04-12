@@ -1,13 +1,14 @@
 # AI Tools Integration Assignment
 
-This repository contains multiple tasks demonstrating the integration and usage of various AI tools and models. Each task is organized in its own directory for clarity and easy navigation.
+This repository demonstrates the integration and usage of various AI tools and models for different applications. Each task is organized in its own directory with complete documentation and demonstration videos.
 
 ## Project Structure
 
 ```
 ├── 01_deepseek_exploration/
-│   ├── deepseek_janus_image_generation.ipynb
-│   └── deepseek_r1_conversation.ipynb
+│   ├── DeepSeek_Image_Janus.ipynb
+│   ├── DeepSeek_Image_Information.ipynb
+│   └── DeepSeek_Text_to_Text_R1.ipynb
 ├── 02_bolt_fullstack/
 │   ├── source_code/
 │   └── demo_video.mp4
@@ -16,7 +17,11 @@ This repository contains multiple tasks demonstrating the integration and usage 
 │   ├── training_metrics/
 │   └── demo_video.mp4
 └── 04_aider_roo_app/
-    └── source_code/
+    ├── aider_app/
+    │   ├── backend/
+    │   └── frontend/
+    └── roo_app/
+        └── todo-app/
 ```
 
 ## Tasks Overview
@@ -25,66 +30,98 @@ This repository contains multiple tasks demonstrating the integration and usage 
 
 Located in: `01_deepseek_exploration/`
 
-- Implementation of image generation using DeepSeek Janus
-- Interesting image-to-text information generation
-- Text-to-text conversations using DeepSeek R1
-- Google Colab notebooks with outputs included
+- Implemented creative image generation using DeepSeek Janus with custom prompts
+- Utilized image-to-text capabilities to extract interesting information from images
+- Created engaging text-to-text conversations using DeepSeek R1
+- All implementations available in Google Colab notebooks with outputs
 
-#### Key Features:
+#### Demo Video
 
-- Creative prompt engineering for image generation
-- Diverse input images for information extraction
-- Engaging conversational examples
+- [Watch the DeepSeek Demo](YOUR_YOUTUBE_LINK_HERE)
 
 ### 2. Bolt.DIY Full Stack Application
 
 Located in: `02_bolt_fullstack/`
 
-- Complete full stack application built using Bolt.DIY
-- Video demonstration of the application
-- Source code and documentation
+- Developed a full stack application using Bolt.DIY
+- Implemented features showcasing Bolt.DIY's capabilities
+- Complete source code with proper documentation
 
 #### Demo Video
 
-- [Watch the demo on YouTube](YOUR_YOUTUBE_LINK_HERE)
-- Complete walkthrough of application features and functionality
+- [Watch the Bolt.DIY Demo](YOUR_YOUTUBE_LINK_HERE)
+- Includes walkthrough of development process and features
 
 ### 3. MNIST Classifier using Cursor
 
 Located in: `03_cursor_mnist/`
 
-- Neural network implementation for MNIST classification using Keras
-- Generated using Cursor AI
-- Comprehensive metrics and performance analysis
+- Generated neural network code for MNIST classification using Cursor
+- Implemented using Keras with comprehensive metrics
+- Includes visualization and performance analysis
 
 #### Demo Video
 
-- [Watch the demo on YouTube](YOUR_YOUTUBE_LINK_HERE)
-- Complete walkthrough
+- [Watch the Cursor Development Demo](YOUR_YOUTUBE_LINK_HERE)
+- Complete walkthrough of code generation and implementation
 
-#### Features:
-
-- Model architecture and training implementation
-- Performance metrics visualization
-- Step-by-step code explanation in video format
-
-### 4. Aider & Roo Full Stack Application
+### 4. Aider & Roo Applications
 
 Located in: `04_aider_roo_app/`
 
-- Simple full stack application developed using Aider and Roo
-- Local development setup and implementation
-- Complete source code and documentation
+Two separate implementations showcasing different development approaches:
 
-## Usage
+#### Aider Implementation
 
-Each project directory contains specific instructions for running and testing the implementations. Please refer to the individual README files within each directory for detailed guidance.
+- Full stack TODO application developed using AI assistance
+- Shows conversational development process
+- [Watch Aider Development Demo](YOUR_YOUTUBE_LINK_HERE)
 
-## Documentation
+#### Roo Implementation
 
-- Detailed documentation for each task is available in their respective directories
-- Video demonstrations are provided for the Bolt.DIY application and MNIST classifier implementation
-- Colab notebooks contain detailed comments and explanations
+- Simple full stack application using Roo framework
+- Demonstrates scaffolding and configuration
+- [Watch Roo Development Demo](YOUR_YOUTUBE_LINK_HERE)
+
+## Running the Applications
+
+### DeepSeek Exploration
+
+- Open the Colab notebooks in Google Colab
+- Follow the instructions in each notebook
+
+### Bolt.DIY Application
+
+```bash
+cd 02_bolt_fullstack
+npm install
+npm run dev
+```
+
+### MNIST Classifier
+
+```bash
+cd 03_cursor_mnist
+python mnist_classifier.py
+```
+
+### Aider & Roo Applications
+
+For Aider App:
+
+```bash
+cd 04_aider_roo_app/aider_app
+cd backend && npm install && npm start
+cd frontend && npm install && npm start
+```
+
+For Roo App:
+
+```bash
+cd 04_aider_roo_app/roo_app/todo-app
+cd backend && npm install && npm start
+cd client && npm install && npm start
+```
 
 ## References
 
