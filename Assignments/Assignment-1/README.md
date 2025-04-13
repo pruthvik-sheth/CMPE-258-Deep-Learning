@@ -37,7 +37,7 @@ Located in: `01_deepseek_exploration/`
 
 #### Demo Video
 
-- [Watch the DeepSeek Demo](YOUR_YOUTUBE_LINK_HERE)
+- [Watch the DeepSeek Demo](https://youtu.be/LhUmYJNrfxM)
 
 ### 2. Bolt.DIY Full Stack Application
 
@@ -49,7 +49,7 @@ Located in: `02_bolt_fullstack/`
 
 #### Demo Video
 
-- [Watch the Bolt.DIY Demo](YOUR_YOUTUBE_LINK_HERE)
+- [Watch the Bolt.DIY Demo](https://youtu.be/Dl_6MebxNWQ)
 - Includes walkthrough of development process and features
 
 ### 3. MNIST Classifier using Cursor
@@ -62,7 +62,7 @@ Located in: `03_cursor_mnist/`
 
 #### Demo Video
 
-- [Watch the Cursor Development Demo](YOUR_YOUTUBE_LINK_HERE)
+- [Watch the Cursor Development Demo](https://youtu.be/mTUUhc058zE)
 - Complete walkthrough of code generation and implementation
 
 ### 4. Aider & Roo Applications
@@ -75,13 +75,13 @@ Two separate implementations showcasing different development approaches:
 
 - Full stack TODO application developed using AI assistance
 - Shows conversational development process
-- [Watch Aider Development Demo](YOUR_YOUTUBE_LINK_HERE)
+- [Watch Aider Development Demo](https://youtu.be/JQjZjfgMHBs)
 
 #### Roo Implementation
 
 - Simple full stack application using Roo framework
 - Demonstrates scaffolding and configuration
-- [Watch Roo Development Demo](YOUR_YOUTUBE_LINK_HERE)
+- [Watch Roo Development Demo](https://youtu.be/JQjZjfgMHBs)
 
 ## Running the Applications
 
