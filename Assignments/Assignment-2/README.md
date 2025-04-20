@@ -21,7 +21,7 @@ This repository contains implementations of three deep learning models for class
 
 - Implementation in Google Colab with full model architecture diagram
 - Integration with Weights & Biases (or TensorFlow TensorBoard)
-- Video walkthrough: [YouTube Link](https://youtu.be/J2ilkDsimb4?t=199)
+- Video walkthrough: [YouTube Link](https://youtu.be/J2ilkDsimb4?t=415)
 - Colab: [Colab Link](https://colab.research.google.com/github/pruthvik-sheth/CMPE-258-Deep-Learning/blob/main/Assignments/Assignment-2/regression/California_Housing_Regression.ipynb)
 - Metrics:
   - MSE, MAE, RMSE
@@ -34,7 +34,7 @@ This repository contains implementations of three deep learning models for class
 
 - Implementation in Google Colab with full model architecture diagram
 - Integration with Weights & Biases (or TensorFlow TensorBoard)
-- Video walkthrough: [YouTube Link](https://youtu.be/J2ilkDsimb4?t=415)
+- Video walkthrough: [YouTube Link](https://youtu.be/J2ilkDsimb4?t=199)
 - Colab: [Colab Link](https://colab.research.google.com/github/pruthvik-sheth/CMPE-258-Deep-Learning/blob/main/Assignments/Assignment-2/image_classification/CNN_Image_Classification.ipynb)
 - Metrics:
   - Overall accuracy, precision, recall, and F1 score
