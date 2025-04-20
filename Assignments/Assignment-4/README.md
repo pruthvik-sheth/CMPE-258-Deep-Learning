@@ -15,8 +15,8 @@ This README provides guidance for the neural network implementation assignment, 
 
 **Resources:**
 
-- [Colab Notebook](https://colab.research.google.com/drive/1xYzA8J7WZlxBbMxF_7cYDbDYBfJ6s9Rp)
-- [Video Walkthrough](https://www.youtube.com/watch?v=sample_link_1)
+- [Colab Notebook](https://colab.research.google.com/github/pruthvik-sheth/CMPE-258-Deep-Learning/blob/main/Assignments/Assignment-4/notebooks/a_numpy_implementation_scratch.ipynb)
+- [Video Walkthrough](https://youtu.be/JmPCZSidNCk)
 
 ### 2. PyTorch Implementation (From Scratch)
 
@@ -27,8 +27,8 @@ This README provides guidance for the neural network implementation assignment, 
 
 **Resources:**
 
-- [Colab Notebook](https://colab.research.google.com/drive/1Qh8s2xF3kXXoT6J6r7t7XZYbO5u9RvbQ)
-- [Video Walkthrough](https://www.youtube.com/watch?v=sample_link_2)
+- [Colab Notebook](https://colab.research.google.com/github/pruthvik-sheth/CMPE-258-Deep-Learning/blob/main/Assignments/Assignment-4/notebooks/b_neural_network_pytorch_scratch.ipynb)
+- [Video Walkthrough](https://youtu.be/JmPCZSidNCk?t=217)
 
 ### 3. PyTorch with Modules
 
@@ -38,8 +38,8 @@ This README provides guidance for the neural network implementation assignment, 
 
 **Resources:**
 
-- [Colab Notebook](https://colab.research.google.com/drive/1H2Qmv9CjdV0XLlG5Z2CjY6bYMT4WXfJL)
-- [Video Walkthrough](https://www.youtube.com/watch?v=sample_link_3)
+- [Colab Notebook](https://colab.research.google.com/github/pruthvik-sheth/CMPE-258-Deep-Learning/blob/main/Assignments/Assignment-4/notebooks/c_neural_network_pytorch.ipynb)
+- [Video Walkthrough](https://youtu.be/JmPCZSidNCk?t=380)
 
 ### 4. PyTorch Lightning
 
@@ -49,8 +49,8 @@ This README provides guidance for the neural network implementation assignment, 
 
 **Resources:**
 
-- [Colab Notebook](https://colab.research.google.com/drive/1KzCX6j7qZYfZBjmW3kvPBzf09Z1w_MRY)
-- [Video Walkthrough](https://www.youtube.com/watch?v=sample_link_4)
+- [Colab Notebook](https://colab.research.google.com/github/pruthvik-sheth/CMPE-258-Deep-Learning/blob/main/Assignments/Assignment-4/notebooks/d_pytorch_lighting.ipynb)
+- [Video Walkthrough](https://youtu.be/JmPCZSidNCk?t=511)
 
 ### 5. TensorFlow from Scratch
 
@@ -60,8 +60,8 @@ This README provides guidance for the neural network implementation assignment, 
 
 **Resources:**
 
-- [Colab Notebook](https://colab.research.google.com/drive/1L_XvAJvt_RbcSOAV53YFjDq0NdZz2-Oa)
-- [Video Walkthrough](https://www.youtube.com/watch?v=sample_link_5)
+- [Colab Notebook](https://colab.research.google.com/github/pruthvik-sheth/CMPE-258-Deep-Learning/blob/main/Assignments/Assignment-4/notebooks/e_tensorflow_low_level_implementation.ipynb)
+- [Video Walkthrough](https://youtu.be/JmPCZSidNCk?t=660)
 
 ### 6. TensorFlow with Built-in Layers
 
@@ -70,8 +70,8 @@ This README provides guidance for the neural network implementation assignment, 
 
 **Resources:**
 
-- [Colab Notebook](https://colab.research.google.com/drive/1aQpOT7H5UnSkg5glW4QdQEGKWnNGqjJq)
-- [Video Walkthrough](https://www.youtube.com/watch?v=sample_link_6)
+- [Colab Notebook](https://colab.research.google.com/github/pruthvik-sheth/CMPE-258-Deep-Learning/blob/main/Assignments/Assignment-4/notebooks/f_tensorflow_built_in_layers.ipynb)
+- [Video Walkthrough](https://youtu.be/JmPCZSidNCk?t=797)
 
 ### 7. TensorFlow Functional API
 
@@ -80,8 +80,8 @@ This README provides guidance for the neural network implementation assignment, 
 
 **Resources:**
 
-- [Colab Notebook](https://colab.research.google.com/drive/1x5EzcIR9QLq2V1kbJK9TVqcSlYncgPJr)
-- [Video Walkthrough](https://www.youtube.com/watch?v=sample_link_7)
+- [Colab Notebook](https://colab.research.google.com/github/pruthvik-sheth/CMPE-258-Deep-Learning/blob/main/Assignments/Assignment-4/notebooks/g_tensorflow_functional_api.ipynb)
+- [Video Walkthrough](https://youtu.be/JmPCZSidNCk?t=898)
 
 ### 8. TensorFlow High-Level API
 
@@ -90,5 +90,5 @@ This README provides guidance for the neural network implementation assignment, 
 
 **Resources:**
 
-- [Colab Notebook](https://colab.research.google.com/drive/1v8k2i_GrSuQXGK8yaZfP7H2hd9_23j-M)
-- [Video Walkthrough](https://www.youtube.com/watch?v=sample_link_8)
+- [Colab Notebook](https://colab.research.google.com/github/pruthvik-sheth/CMPE-258-Deep-Learning/blob/main/Assignments/Assignment-4/notebooks/h_tensorflow_high_level_api.ipynb)
+- [Video Walkthrough](https://youtu.be/JmPCZSidNCk?t=1033)
