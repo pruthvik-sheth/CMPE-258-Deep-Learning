@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hand Gesture Recognition</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@3.11.0"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #webcam-container {
+            margin-bottom: 20px;
+            position: relative;
+        }
+        #webcam {
+            border: 2px solid #333;
+            border-radius: 8px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            margin: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        button:disabled {
+            background-color: #cccccc;
+            cursor: not-allowed;
+        }
+        #prediction-container {
+            margin-top: 20px;
+            text-align: center;
+            width: 100%;
+        }
+        .gesture-label {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .confidence-bar {
+            height: 30px;
+            background-color: #e0e0e0;
+            border-radius: 15px;
+            margin: 10px 0;
+            position: relative;
+        }
+        .confidence-level {
+            height: 100%;
+            border-radius: 15px;
+            background-color: #4CAF50;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+        }
+        .prediction-chart {
+            width: 100%;
+            margin-top: 20px;
+        }
+        .chart-bar {
+            height: 30px;
+            margin: 5px 0;
+            display: flex;
+            align-items: center;
+        }
+        .chart-label {
+            width: 100px;
+            text-align: right;
+            padding-right: 10px;
+        }
+        .chart-value {
+            height: 100%;
+            background-color: #2196F3;
+            display: flex;
+            align-items: center;
+            padding-left: 10px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hand Gesture Recognition</h1>
+    <p>This application demonstrates a Teachable Machine-style hand gesture recognition system.</p>
+    
+    <div class="container">
+        <div id="webcam-container">
+            <video id="webcam" autoplay playsinline width="400" height="300"></video>
+        </div>
+        
+        <div class="buttons">
+            <button id="start-button">Start Webcam</button>
+            <button id="predict-button" disabled>Recognize Gesture</button>
+        </div>
+        
+        <div id="prediction-container" style="display: none;">
+            <h2>Prediction Result</h2>
+            <div class="gesture-label" id="prediction-label">-</div>
+            <div class="confidence-bar">
+                <div class="confidence-level" id="confidence-level" style="width: 0%">0%</div>
+            </div>
+            
+            <div class="prediction-chart" id="prediction-chart"></div>
+        </div>
+    </div>
+
+    <script>
+        // DOM elements
+        const webcamElement = document.getElementById('webcam');
+        const startButton = document.getElementById('start-button');
+        const predictButton = document.getElementById('predict-button');
+        const predictionContainer = document.getElementById('prediction-container');
+        const predictionLabel = document.getElementById('prediction-label');
+        const confidenceLevel = document.getElementById('confidence-level');
+        const predictionChart = document.getElementById('prediction-chart');
+        
+        // Global variables
+        let model;
+        let classNames = ['thumbs_up', 'thumbs_down', 'peace', 'open_palm', 'closed_fist']; // Default class names, will be updated when model loads
+        let webcamStream;
+        
+        // Start webcam
+        startButton.addEventListener('click', async () => {
+            try {
+                webcamStream = await navigator.mediaDevices.getUserMedia({
+                    video: { width: 400, height: 300 }
+                });
+                webcamElement.srcObject = webcamStream;
+                startButton.disabled = true;
+                predictButton.disabled = false;
+                
+                // Load the model (in a real app, this would load your exported TF.js model)
+                // model = await tf.loadLayersModel('tfjs_hand_gesture_model/model.json');
+                // console.log('Model loaded');
+                
+                // For demo, we'll simulate model loading
+                setTimeout(() => {
+                    console.log('Model loaded (simulated)');
+                }, 1000);
+                
+            } catch (error) {
+                console.error('Error accessing webcam:', error);
+            }
+        });
+        
+        // Predict gesture
+        predictButton.addEventListener('click', async () => {
+            // In a real application, we would:
+            // 1. Capture the current frame from the webcam
+            // 2. Preprocess the image (resize, normalize)
+            // 3. Run inference through the loaded TF.js model
+            // 4. Display the prediction results
+            
+            // For this demo, we'll simulate a prediction
+            simulatePrediction();
+            
+            // Show prediction container
+            predictionContainer.style.display = 'block';
+        });
+        
+        // Simulate model prediction (for demo purposes)
+        function simulatePrediction() {
+            // Generate random prediction scores
+            const scores = Array(classNames.length).fill().map(() => Math.random());
+            const sum = scores.reduce((a, b) => a + b, 0);
+            const normalizedScores = scores.map(score => score / sum);
+            
+            // Find the highest score and its index
+            const maxScore = Math.max(...normalizedScores);
+            const maxScoreIndex = normalizedScores.indexOf(maxScore);
+            const predictedClass = classNames[maxScoreIndex];
+            
+            // Update the UI
+            predictionLabel.textContent = predictedClass.replace('_', ' ');
+            const confidencePercent = Math.round(maxScore * 100);
+            confidenceLevel.style.width = `${confidencePercent}%`;
+            confidenceLevel.textContent = `${confidencePercent}%`;
+            
+            // Create bar chart for all class confidences
+            predictionChart.innerHTML = '';
+            normalizedScores.forEach((score, index) => {
+                const className = classNames[index].replace('_', ' ');
+                const percent = Math.round(score * 100);
+                
+                const chartBar = document.createElement('div');
+                chartBar.className = 'chart-bar';
+                
+                const chartLabel = document.createElement('div');
+                chartLabel.className = 'chart-label';
+                chartLabel.textContent = className;
+                
+                const chartValue = document.createElement('div');
+                chartValue.className = 'chart-value';
+                chartValue.style.width = `${percent}%`;
+                chartValue.textContent = `${percent}%`;
+                
+                chartBar.appendChild(chartLabel);
+                chartBar.appendChild(chartValue);
+                predictionChart.appendChild(chartBar);
+            });
+        }
+    </script>
+</body>
+</html>
