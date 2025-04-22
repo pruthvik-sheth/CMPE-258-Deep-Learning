@@ -1,1 +1,3 @@
 node_modules
+tfjs_audio_model.zip
+*.h5
