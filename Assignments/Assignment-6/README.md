@@ -73,9 +73,11 @@ Key aspects covered:
 
 ### f) Mental Health Chatbot Development
 
-This section focuses on developing a specialized chatbot for mental health applications by fine-tuning Microsoft Phi-3 with Unsloth, following the approach outlined in [this tutorial](https://medium.com/@mauryaanoop3/fine-tuning-microsoft-phi3-with-unsloth-for-mental-health-chatbot-development-ddea4e0c46e7).
+This notebook demonstrates developing a specialized chatbot for mental health applications by fine-tuning Microsoft Phi-3 with Unsloth:
 
-Key components include:
+- [F_Mental_Health_Chatbot.ipynb](./notebooks/F_Mental_Health_Chatbot.ipynb)
+
+The implementation follows the approach outlined in [this tutorial](https://medium.com/@mauryaanoop3/fine-tuning-microsoft-phi3-with-unsloth-for-mental-health-chatbot-development-ddea4e0c46e7) and includes:
 
 - Mental health dataset preparation and processing
 - Specialized fine-tuning configuration
@@ -84,9 +86,11 @@ Key components include:
 
 ### g) Unsloth to Ollama Export
 
-This section demonstrates the complete pipeline from fine-tuning to deployment using Ollama, following the [Unsloth to Ollama export guide](https://docs.unsloth.ai/tutorials/how-to-finetune-llama-3-and-export-to-ollama):
+This notebook demonstrates the complete pipeline from fine-tuning to deployment using Ollama:
 
-Key aspects covered:
+- [G_Inference_Ollama_Export.ipynb](./notebooks/G_Inference_Ollama_Export.ipynb)
+
+The implementation follows the [Unsloth to Ollama export guide](https://docs.unsloth.ai/tutorials/how-to-finetune-llama-3-and-export-to-ollama) and covers:
 
 - Model fine-tuning process
 - Export configuration for Ollama compatibility
