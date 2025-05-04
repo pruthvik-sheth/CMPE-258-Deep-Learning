@@ -1,4 +1,4 @@
-# Deep Learning Assignment 9: Advanced Transfer Learning & Contrastive Learning
+# Advanced Transfer Learning & Contrastive Learning
 
 This repository contains a collection of Google Colab notebooks demonstrating various deep learning techniques with a focus on transfer learning across modalities and supervised contrastive learning.
 
