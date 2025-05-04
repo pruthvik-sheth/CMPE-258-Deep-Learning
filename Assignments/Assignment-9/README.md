@@ -1,81 +1,88 @@
-# Deep Learning Assignment: Advanced Transfer Learning & Contrastive Learning
+# Deep Learning Assignment 9: Advanced Transfer Learning & Contrastive Learning
 
 This repository contains a collection of Google Colab notebooks demonstrating various deep learning techniques with a focus on transfer learning across modalities and supervised contrastive learning.
 
-## Video Demo
+## Assignment Structure
 
-A comprehensive video demonstration of the key implementations and their results can be found at: [Video Demo Link](https://youtu.be/your-video-id)
+### Part 1: Supervised Contrastive Learning
 
-## Project Structure
+- **Supervised Contrastive vs Softmax Classification**: Implementation comparing supervised contrastive learning loss-based classification versus regular softmax-based classification, with visualizations.
+  - [Open in Colab](https://colab.research.google.com/github/pruthvik-sheth/CMPE-258-Deep-Learning/blob/main/Assignments/Assignment-9/notebooks/Part%201/Supervised_Contrastive_vs_Softmax.ipynb)
 
-## Part 1: Supervised Contrastive Learning
+**Rubric**: Demonstrate supervised contrastive learning loss-based supervised classification versus regular softmax-based classification with necessary visualizations.
 
-- **Supervised Contrastive Learning vs. Softmax Classification**: Implementation of supervised contrastive learning compared to traditional softmax-based classification with visualizations of embedding spaces and model performance.
-  - [Open in Colab](https://colab.research.google.com/drive/your-colab-link-1)
-
-## Part 2: Transfer Learning Across Modalities
+### Part 2: Transfer Learning Across Modalities
 
 Transfer learning demonstrations across various data types:
 
-### Image Transfer Learning
+- **Image Transfer Learning**: Showcasing transfer learning for image classification with both feature extraction and fine-tuning approaches.
 
-- **Image Transfer Learning - Feature Extraction**: Using pre-trained models as feature extractors for image classification
-  - [Open in Colab](https://colab.research.google.com/drive/your-colab-link-2)
-- **Image Transfer Learning - Fine Tuning**: Fine-tuning pre-trained models for image classification tasks
-  - [Open in Colab](https://colab.research.google.com/drive/your-colab-link-3)
+  - [Open in Colab](https://colab.research.google.com/github/pruthvik-sheth/CMPE-258-Deep-Learning/blob/main/Assignments/Assignment-9/notebooks/Part%202/Image_Transfer_Learning.ipynb)
 
-### Video Transfer Learning
+- **Video Transfer Learning**: Action recognition using pre-trained models for video data.
 
-- **Video Transfer Learning**: Action recognition using pre-trained models
-  - [Open in Colab](https://colab.research.google.com/drive/your-colab-link-4)
+  - [Open in Colab](https://colab.research.google.com/github/pruthvik-sheth/CMPE-258-Deep-Learning/blob/main/Assignments/Assignment-9/notebooks/Part%202/Video_Transfer_Learning.ipynb)
 
-### Audio Transfer Learning
+- **Audio Transfer Learning**: Audio classification using YAMNet and transfer learning techniques.
+  - [Open in Colab](https://colab.research.google.com/github/pruthvik-sheth/CMPE-258-Deep-Learning/blob/main/Assignments/Assignment-9/notebooks/Part%202/Audio_Transfer_Learning.ipynb)
 
-- **Audio Transfer Learning**: Audio classification using YAMNet and transfer learning
-  - [Open in Colab](https://colab.research.google.com/drive/your-colab-link-5)
+**Rubric**: Implement transfer learning on images, videos, and audio data, demonstrating both feature extraction and fine-tuning approaches.
 
-### NLP Transfer Learning
+### Part 3: Zero-Shot and Advanced Transfer Learning
 
-- **NLP Transfer Learning**: Text classification using pre-trained language models
-  - [Open in Colab](https://colab.research.google.com/drive/your-colab-link-6)
+- **Zero-Shot Image Classification with CLIP**: Demonstrating zero-shot transfer learning capabilities of OpenAI's CLIP model.
 
-## Part 3: Zero-Shot and State-of-the-Art Transfer Learning
+  - [Open in Colab](https://colab.research.google.com/github/pruthvik-sheth/CMPE-258-Deep-Learning/blob/main/Assignments/Assignment-9/notebooks/Part%203/Zero_Shot_Image_Classification_CLIP.ipynb)
 
-- **Zero-Shot Learning with CLIP**: Zero-shot image classification with OpenAI's CLIP model
-  - [Open in Colab](https://colab.research.google.com/drive/your-colab-link-7)
-- **Big Transfer (BiT) Model**: Transfer learning with Google's Big Transfer (BiT) model
-  - [Open in Colab](https://colab.research.google.com/drive/your-colab-link-8)
+- **Transfer Learning with Big Transfer (BiT)**: Showcasing state-of-the-art transfer learning using Google's BiT model.
+  - [Open in Colab](https://colab.research.google.com/github/pruthvik-sheth/CMPE-258-Deep-Learning/blob/main/Assignments/Assignment-9/notebooks/Part%203/Transfer_Learning_with_Big_Transfer.ipynb)
 
-## Part 4: Vision Classifiers and Medical Imaging Applications
+**Rubric**: Showcase zero-shot transfer learning with CLIP model and transfer learning using state-of-art models from TFHub (e.g., Big Transfer).
 
-### Standard Vision Datasets
+### Part 4: Vision Classifiers and Medical Imaging
 
-- **MNIST Classifiers**: Classic MNIST digit classification with various models
-  - [Open in Colab](https://colab.research.google.com/drive/your-colab-link-9)
-- **Fashion MNIST Classifiers**: Fashion MNIST classification with transfer learning
-  - [Open in Colab](https://colab.research.google.com/drive/your-colab-link-10)
-- **CIFAR-10 Classifiers**: CIFAR-10 classification with EfficientNet and BiT
-  - [Open in Colab](https://colab.research.google.com/drive/your-colab-link-11)
+#### Standard Vision Datasets
 
-### State-of-the-Art Models
+- **MNIST Classification with State-of-the-Art Models**: Implementing advanced architectures for MNIST digit classification.
 
-- **MLP-Mixer Demo**: Demonstration of MLP-Mixer architecture
-  - [Open in Colab](https://colab.research.google.com/drive/your-colab-link-12)
-- **ConvNeXt V2 Demo**: Implementation of ConvNeXt V2 models
-  - [Open in Colab](https://colab.research.google.com/drive/your-colab-link-13)
+  - [Open in Colab](https://colab.research.google.com/github/pruthvik-sheth/CMPE-258-Deep-Learning/blob/main/Assignments/Assignment-9/notebooks/Part%204/MNIST_Classification_State_of_the_Art_Models.ipynb)
 
-### Medical Imaging Applications
+- **Fashion MNIST Transfer Learning**: Applying transfer learning techniques to Fashion MNIST dataset.
 
-- **X-ray Pneumonia Classification**: X-ray image classification for pneumonia detection
-  - [Open in Colab](https://colab.research.google.com/drive/your-colab-link-14)
-- **3D CT Scan Classification**: 3D CT scan classification using 3D convolutional networks
-  - [Open in Colab](https://colab.research.google.com/drive/your-colab-link-15)
+  - [Open in Colab](https://colab.research.google.com/github/pruthvik-sheth/CMPE-258-Deep-Learning/blob/main/Assignments/Assignment-9/notebooks/Part%204/Fashion_Mnist_Transfer_Learning.ipynb)
+
+- **CIFAR-10 Classification with Transfer Learning**: Using EfficientNet and BiT for CIFAR-10 classification.
+  - [Open in Colab](https://colab.research.google.com/github/pruthvik-sheth/CMPE-258-Deep-Learning/blob/main/Assignments/Assignment-9/notebooks/Part%204/CIFAR_10_Classification_Transfer_Learning.ipynb)
+
+#### Medical Imaging Applications
+
+- **X-ray Pneumonia Classification**: Implementing convolutional networks for pneumonia detection in X-ray images.
+
+  - [Open in Colab](https://colab.research.google.com/github/pruthvik-sheth/CMPE-258-Deep-Learning/blob/main/Assignments/Assignment-9/notebooks/Part%204/Xray.ipynb)
+
+- **3D CT Scan Classification**: 3D image classification using 3D convolutional networks.
+  - [Open in Colab](https://colab.research.google.com/github/pruthvik-sheth/CMPE-258-Deep-Learning/blob/main/Assignments/Assignment-9/notebooks/Part%204/3D.ipynb)
+
+**Rubric**:
+
+- Demonstrate vision classifiers on MNIST, Fashion MNIST, and CIFAR-10 datasets
+- Implement pretrained models with transfer learning (both EfficientNet and BiT)
+- Demonstrate state-of-art image models like MLP-Mixer and ConvNeXt V2
+- Implement X-ray pneumonia classification with ConvNet
+- Implement 3D image classification of CT scans
 
 ## References
 
 - [Supervised Contrastive Learning Paper](https://arxiv.org/abs/2004.11362)
+- [Contrastive Loss for Supervised Classification](https://towardsdatascience.com/contrastive-loss-for-supervised-classification-224ae35692e7)
+- [Keras Example: Supervised Contrastive Learning](https://keras.io/examples/vision/supervised-contrastive-learning/)
 - [TensorFlow Transfer Learning Guide](https://www.tensorflow.org/tutorials/images/transfer_learning)
+- [Transfer Learning for Audio Data with YAMNet](https://blog.tensorflow.org/2021/03/transfer-learning-for-audio-data-with-yamnet.html)
+- [Action Recognition with TF Hub](https://www.tensorflow.org/hub/tutorials/action_recognition_with_tf_hub)
 - [CLIP: Connecting Text and Images](https://openai.com/blog/clip/)
 - [Big Transfer (BiT)](https://github.com/google-research/big_transfer)
-- [MLP-Mixer: An all-MLP Architecture for Vision](https://arxiv.org/abs/2105.01601)
-- [ConvNeXt V2](https://arxiv.org/abs/2301.00808)
+- [Keras Example: BiT](https://keras.io/examples/vision/bit/)
+- [TensorFlow Hub for Transfer Learning](https://amitness.com/2020/02/tensorflow-hub-for-transfer-learning/)
+- [Keras Example: MLP Image Classification](https://keras.io/examples/vision/mlp_image_classification/)
+- [Keras Example: X-ray Classification with TPUs](https://keras.io/examples/vision/xray_classification_with_tpus/)
+- [Keras Example: 3D Image Classification](https://keras.io/examples/vision/3D_image_classification/)
