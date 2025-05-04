@@ -21,8 +21,6 @@ Three interactive examples showcasing different applications of Google's Teachab
 - Sentiment analysis and text categorization
 - [Colab Notebook](https://colab.research.google.com/github/pruthvik-sheth/CMPE-258-Deep-Learning/blob/main/Assignments/Assignment-5/teachable-machine-demos/Text/Text_Classification.ipynb)
 
-**Video Demo**: [Watch Teachable Machine Implementation](https://youtu.be/your-teachable-machine-video)
-
 ## Part 2: Keras Hub Implementations
 
 Examples using TensorFlow Hub demonstrating various complexity levels (Easy, Intermediate, Advanced, Expert):
