@@ -2,6 +2,11 @@
 
 This repository contains a collection of Google Colab notebooks demonstrating various deep learning techniques with a focus on transfer learning across modalities and supervised contrastive learning.
 
+## Video Walkthrough
+
+A comprehensive video demonstration of the implementations and results can be found here:
+[YouTube Video Walkthrough](https://youtu.be/your-video-id)
+
 ## Assignment Structure
 
 ### Part 1: Supervised Contrastive Learning
