@@ -1,4 +1,4 @@
-# Assignment 10: NLP Tasks with Keras NLP and Hugging Face
+# NLP Tasks with Keras NLP and Hugging Face
 
 This assignment focuses on implementing various Natural Language Processing (NLP) tasks using Keras NLP and Hugging Face libraries. The assignment demonstrates three key NLP patterns: inference with pretrained classifiers, fine-tuning pretrained backbones, and building transformers from scratch.
 
