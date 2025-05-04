@@ -4,7 +4,7 @@ This repository contains a comprehensive collection of Jupyter notebooks demonst
 
 ## Video Walkthrough
 
-[Watch the detailed code walkthrough on YouTube](https://youtu.be/your-video-link)
+[Watch the detailed code walkthrough on YouTube](https://youtu.be/Ca4JWF1r29M)
 
 ## Assignment Structure
 
