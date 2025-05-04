@@ -14,10 +14,10 @@ Complete project demonstration: [YouTube - Comprehensive LLM Fine-tuning, Pre-tr
 
 Four unique fine-tuning use cases for various open-source LLMs, each targeting different capabilities:
 
-- **Llama 3 (8B)**: Fine-tuned for conversational chat ([A_Llama.ipynb](./notebooks/A_Llama.ipynb))
-- **Phi-3 Mini**: Fine-tuned for coding tasks ([A_phi3_mini_coding.ipynb](./notebooks/A_phi3_mini_coding.ipynb))
-- **Gemma 2**: Fine-tuned for question answering ([A_QA_with_Gemma.ipynb](./notebooks/A_QA_with_Gemma.ipynb))
-- **TinyLlama**: Fine-tuned for general chat capabilities ([A_tinyllama_chat.ipynb](./notebooks/A_tinyllama_chat.ipynb))
+- **Llama 3 (8B)**: Fine-tuned for conversational chat ([A_Llama.ipynb](https://colab.research.google.com/github/pruthvik-sheth/CMPE-258-Deep-Learning/blob/main/Assignments/Assignment-6/notebooks/A_Llama.ipynb))
+- **Phi-3 Mini**: Fine-tuned for coding tasks ([A_phi3_mini_coding.ipynb](https://colab.research.google.com/github/pruthvik-sheth/CMPE-258-Deep-Learning/blob/main/Assignments/Assignment-6/notebooks/A_phi3_mini_coding.ipynb))
+- **Gemma 2**: Fine-tuned for question answering ([A_QA_with_Gemma.ipynb](https://colab.research.google.com/github/pruthvik-sheth/CMPE-258-Deep-Learning/blob/main/Assignments/Assignment-6/notebooks/A_QA_with_Gemma.ipynb))
+- **TinyLlama**: Fine-tuned for general chat capabilities ([A_tinyllama_chat.ipynb](https://colab.research.google.com/github/pruthvik-sheth/CMPE-258-Deep-Learning/blob/main/Assignments/Assignment-6/notebooks/A_tinyllama_chat.ipynb))
 
 Each notebook includes detailed explanations of the model architecture, input format requirements, dataset preparation, and various chat model templates used for fine-tuning.
 
@@ -25,7 +25,7 @@ Each notebook includes detailed explanations of the model architecture, input fo
 
 This notebook demonstrates using Unsloth AI to extend an LLM's capabilities by teaching it a new language through continued pre-training:
 
-- [B_New_Language_Training_Lightweight.ipynb](./notebooks/B_New_Language_Training_Lightweight.ipynb)
+- [B_New_Language_Training_Lightweight.ipynb](https://colab.research.google.com/github/pruthvik-sheth/CMPE-258-Deep-Learning/blob/main/Assignments/Assignment-6/notebooks/B_New_Language_Training_Lightweight.ipynb)
 
 The implementation follows the methodology outlined in the [Unsloth continued pre-training documentation](https://docs.unsloth.ai/basics/continued-pretraining) and includes:
 
@@ -38,9 +38,9 @@ The implementation follows the methodology outlined in the [Unsloth continued pr
 
 This section explores different chat templates for specialized tasks:
 
-- **Classification**: Fine-tuning for structured classification tasks ([C_Chat_Templates_for_Classification.ipynb](./notebooks/C_Chat_Templates_for_Classification.ipynb))
-- **Conversational Chat**: Implementing effective dialog management ([C_Conversational_Chat_Template.ipynb](./notebooks/C_Conversational_Chat_Template.ipynb))
-- **Multi-dataset Fine-tuning**: Single fine-tuning process with multiple datasets ([C_Multiple_Datasets_Single_Fine_Tuning.ipynb](./notebooks/C_Multiple_Datasets_Single_Fine_Tuning.ipynb))
+- **Classification**: Fine-tuning for structured classification tasks ([C_Chat_Templates_for_Classification.ipynb](https://colab.research.google.com/github/pruthvik-sheth/CMPE-258-Deep-Learning/blob/main/Assignments/Assignment-6/notebooks/C_Chat_Templates_for_Classification.ipynb))
+- **Conversational Chat**: Implementing effective dialog management ([C_Conversational_Chat_Template.ipynb](https://colab.research.google.com/github/pruthvik-sheth/CMPE-258-Deep-Learning/blob/main/Assignments/Assignment-6/notebooks/C_Conversational_Chat_Template.ipynb))
+- **Multi-dataset Fine-tuning**: Single fine-tuning process with multiple datasets ([C_Multiple_Datasets_Single_Fine_Tuning.ipynb](https://colab.research.google.com/github/pruthvik-sheth/CMPE-258-Deep-Learning/blob/main/Assignments/Assignment-6/notebooks/C_Multiple_Datasets_Single_Fine_Tuning.ipynb))
 
 Each notebook demonstrates how to properly format inputs for different use cases and how to extend the context window size for models like TinyLlama.
 
@@ -48,8 +48,8 @@ Each notebook demonstrates how to properly format inputs for different use cases
 
 Implementation of advanced reward modeling techniques:
 
-- **ORPO (Off-policy Ranked Policy Optimization)**: [D_ORPO.ipynb](./notebooks/D_ORPO.ipynb)
-- **DPO (Direct Preference Optimization)**: [D_DPO.ipynb](./notebooks/D_DPO.ipynb)
+- **ORPO (Off-policy Ranked Policy Optimization)**: [D_ORPO.ipynb](https://colab.research.google.com/github/pruthvik-sheth/CMPE-258-Deep-Learning/blob/main/Assignments/Assignment-6/notebooks/D_ORPO.ipynb)
+- **DPO (Direct Preference Optimization)**: [D_DPO.ipynb](https://colab.research.google.com/github/pruthvik-sheth/CMPE-258-Deep-Learning/blob/main/Assignments/Assignment-6/notebooks/D_DPO.ipynb)
 
 These notebooks follow the methodology described in the [Unsloth reward modeling documentation](https://docs.unsloth.ai/basics/reward-modelling-dpo-and-orpo) and include:
 
@@ -62,7 +62,7 @@ These notebooks follow the methodology described in the [Unsloth reward modeling
 
 This notebook demonstrates how to resume fine-tuning from a custom checkpoint:
 
-- [E_Fine_tuning_from_Custom_Checkpoint.ipynb](./notebooks/E_Fine_tuning_from_Custom_Checkpoint.ipynb)
+- [E_Fine_tuning_from_Custom_Checkpoint.ipynb](https://colab.research.google.com/github/pruthvik-sheth/CMPE-258-Deep-Learning/blob/main/Assignments/Assignment-6/notebooks/E_Fine_tuning_from_Custom_Checkpoint.ipynb)
 
 Key aspects covered:
 
@@ -75,7 +75,7 @@ Key aspects covered:
 
 This notebook demonstrates developing a specialized chatbot for mental health applications by fine-tuning Microsoft Phi-3 with Unsloth:
 
-- [F_Mental_Health_Chatbot.ipynb](./notebooks/F_Mental_Health_Chatbot.ipynb)
+- [F_Mental_Health_Chatbot.ipynb](https://colab.research.google.com/github/pruthvik-sheth/CMPE-258-Deep-Learning/blob/main/Assignments/Assignment-6/notebooks/F_Mental_Health_Chatbot.ipynb)
 
 The implementation follows the approach outlined in [this tutorial](https://medium.com/@mauryaanoop3/fine-tuning-microsoft-phi3-with-unsloth-for-mental-health-chatbot-development-ddea4e0c46e7) and includes:
 
@@ -88,7 +88,7 @@ The implementation follows the approach outlined in [this tutorial](https://medi
 
 This notebook demonstrates the complete pipeline from fine-tuning to deployment using Ollama:
 
-- [G_Inference_Ollama_Export.ipynb](./notebooks/G_Inference_Ollama_Export.ipynb)
+- [G_Inference_Ollama_Export.ipynb](https://colab.research.google.com/github/pruthvik-sheth/CMPE-258-Deep-Learning/blob/main/Assignments/Assignment-6/notebooks/G_Inference_Ollama_Export.ipynb)
 
 The implementation follows the [Unsloth to Ollama export guide](https://docs.unsloth.ai/tutorials/how-to-finetune-llama-3-and-export-to-ollama) and covers:
 

@@ -39,7 +39,7 @@ Examples using TensorFlow Hub demonstrating various complexity levels (Easy, Int
 - Includes sentiment analysis, text classification, and advanced NLP tasks
 - [Colab Notebook](https://colab.research.google.com/github/pruthvik-sheth/CMPE-258-Deep-Learning/blob/main/Assignments/Assignment-5/keras-hub-implementations/2_Keras_Hub_Text.ipynb)
 
-**Video Demo**: [Watch Keras Hub Implementation](https://youtu.be/your-keras-hub-video)
+**Video Demo**: [Watch Keras Hub Implementation](https://youtu.be/_Mmfrw8YpnU)
 
 ## Resources
 
