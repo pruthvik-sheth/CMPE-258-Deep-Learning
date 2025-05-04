@@ -40,7 +40,7 @@ This assignment focuses on implementing various Natural Language Processing (NLP
 
 A detailed video walkthrough of all three notebooks, including explanations of the code and debugging traces, is available on YouTube:
 
-[Assignment 10 Video Walkthrough](https://www.youtube.com/watch?v=your_video_id)
+[Assignment 10 Video Walkthrough](https://youtu.be/zulm_5MykF0)
 
 ## References and Resources
 
