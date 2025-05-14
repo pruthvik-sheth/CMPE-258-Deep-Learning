@@ -8,6 +8,10 @@ This repository demonstrates various use cases of multimodal language models, wi
 
 [Watch the Full Tutorial and Demo](https://youtu.be/5iIuFNmcTAQ)
 
+## Interactive Notebook
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pruthvik-sheth/CMPE-258-Deep-Learning/blob/main/Assignments/Optional-Catchup-For-Quiz/Optional_Catchup_For_Quiz_Multimodal.ipynb)
+
 ## Assignment Details
 
 ### Model Overview
