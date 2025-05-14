@@ -6,7 +6,7 @@ This repository demonstrates various use cases of multimodal language models, wi
 
 ## YouTube Demo
 
-[Watch the Full Tutorial and Demo](https://youtu.be/your-video-id)
+[Watch the Full Tutorial and Demo](https://youtu.be/5iIuFNmcTAQ)
 
 ## Assignment Details
 
