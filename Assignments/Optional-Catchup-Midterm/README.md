@@ -1,104 +1,60 @@
-# Comprehensive Multimodal Models Assignment
+# AI Transfer Learning & Foundation Models Demonstration
 
-## Assignment Overview
+This repository contains a comprehensive demonstration of transfer learning techniques and foundation models across multiple modalities, including vision, audio, and generative tasks. The project showcases how pretrained models can be leveraged for various applications with minimal additional training.
 
-This repository demonstrates the implementation, fine-tuning, and application of various multimodal deep learning models across vision, language, audio, and video domains. Each task is implemented as a Google Colab notebook with detailed code walkthroughs and accompanying video explanations.
+## Overview
 
-## Video Code Walkthrough
+The Jupyter notebook in this repository demonstrates 10 different transfer learning and model fine-tuning approaches:
 
-[Watch the Full Code Walkthrough Video](https://youtu.be/your-video-id)
+1. **Pose Detection**: Using MoveNet model to detect human pose keypoints
+2. **Crop Disease Detection**: Fine-tuning MobileNetV2 for plant disease classification
+3. **Video Classification**: Transfer learning with MovieNet for video content analysis
+4. **Sound Classification**: Using YAMNet for audio event recognition
+5. **Audio Recognition**: Speech command recognition system using synthetic data
+6. **Segment Anything Model (SAM)**: Powerful image segmentation capabilities
+7. **Transformers Models**: Text generation, NER, sentiment analysis, and more
+8. **DeepFloyd IF/Stable Diffusion**: Text-to-image generation capabilities
+9. **Image-to-Image & Inpainting**: Image editing and manipulation techniques
+10. **DreamBooth**: Personalizing text-to-image models with specific subjects
 
-Each task includes a detailed video walkthrough explaining the implementation and demonstrating the outputs.
+## Demo Video
 
-## Task Descriptions
+Watch a comprehensive video walkthrough of the code and its outputs:
 
-### Task A: Pose Detection Model Transfer Learning
+[![AI Transfer Learning Demo](https://img.youtube.com/vi/e_mXLbjDS_A/0.jpg)](https://www.youtube.com/watch?v=e_mXLbjDS_A)
 
-- Implementation of a pose detection model using transfer learning
-- Fine-tuning pre-trained models for human pose estimation
-- Evaluation on custom datasets
-- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-username/multimodal-models-assignment/blob/main/task_a_pose_detection/pose_detection_transfer_learning.ipynb)
+Link: [YouTube Video Walkthrough](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
 
-### Task B: Crop Disease Detection
+## Colab Notebook
 
-- Transfer learning and fine-tuning for crop disease identification
-- Implementation with agricultural image datasets
-- Model optimization for resource-constrained environments
-- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-username/multimodal-models-assignment/blob/main/task_b_crop_disease_detection/crop_disease_detection.ipynb)
+You can run the entire demonstration in Google Colab:
 
-### Task C: Video Classification with MovieNet
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pruthvik-sheth/CMPE-258-Deep-Learning/blob/main/Assignments/Optional-Catchup-Midterm/Tranfer_Learning_Multiple_Modalities.ipynb)
 
-- Transfer learning implementation for video content classification
-- Feature extraction from movie clips
-- Temporal modeling and scene understanding
-- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-username/multimodal-models-assignment/blob/main/task_c_video_classification/movienet_video_classification.ipynb)
+## Key Features
 
-### Task D: Sound Classification with YAMNet
+- **Multimodal Approach**: Covers vision, audio, text, and generative models
+- **Step-by-Step Tutorials**: Detailed explanations of each technique
+- **Visualization**: Clear visualization of results for better understanding
+- **Resource-Efficient**: Optimized to run on free tier Google Colab
+- **Practical Applications**: Real-world use cases for each technique
 
-- Audio classification using transfer learning with YAMNet
-- Feature extraction from spectrograms
-- Model adaptation for custom sound categories
-- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-username/multimodal-models-assignment/blob/main/task_d_sound_classification/yamnet_sound_classification.ipynb)
+## Requirements
 
-### Task E: Audio Recognition Transfer Learning
+All required packages are installed within the notebook. The primary dependencies include:
 
-- Speech and audio recognition model implementation
-- Transfer learning for custom audio recognition tasks
-- Model fine-tuning for improved performance
-- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-username/multimodal-models-assignment/blob/main/task_e_audio_recognition/audio_recognition_transfer_learning.ipynb)
-
-### Task F: Segment Anything Model (SAM) Demonstration
-
-- Implementation of SAM for image segmentation
-- Fine-tuning SAM for custom segmentation tasks
-- Interactive segmentation demonstrations
-- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-username/multimodal-models-assignment/blob/main/task_f_segment_anything_model/sam_demonstration.ipynb)
-
-### Task G: Hugging Face Transformers Agents
-
-- Implementation of transformer-based agents
-- Integration with external tools and APIs
-- Task automation with natural language understanding
-- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-username/multimodal-models-assignment/blob/main/task_g_huggingface_transformers_agents/transformers_agents_demo.ipynb)
-
-### Task H: DeepFloyd IF Capabilities
-
-- Demonstration of DeepFloyd IF image generation capabilities
-- Text-to-image generation with fine control
-- Model architecture explanation and implementation details
-- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-username/multimodal-models-assignment/blob/main/task_h_deepfloyd_if/deepfloyd_if_capabilities.ipynb)
-
-### Task I: Text-Guided Image Manipulation
-
-- Implementation of text-guided image-to-image transformation
-- Image inpainting techniques with text prompts
-- TensorFlow-based generative models for image editing
-- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-username/multimodal-models-assignment/blob/main/task_i_text_guided_image_manipulation/text_guided_image_generation.ipynb)
-- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-username/multimodal-models-assignment/blob/main/task_i_text_guided_image_manipulation/image_inpainting.ipynb)
-
-### Task J: DreamBooth Text-to-Image Personalization
-
-- Personalization of text-to-image models with DreamBooth
-- Training procedures for custom concept learning
-- Implementing efficient fine-tuning for diffusion models
-- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-username/multimodal-models-assignment/blob/main/task_j_dreambooth_personalization/dreambooth_text_to_image.ipynb)
-
-## Technical Requirements
-
-- Python 3.8+
-- TensorFlow 2.x / PyTorch 1.x+
+- TensorFlow
+- PyTorch
 - Hugging Face Transformers
-- Google Colab with GPU runtime
-- Various task-specific libraries (detailed in each notebook)
+- OpenCV
+- Matplotlib
+- NumPy
+- Diffusers
 
-## Resources
+## Acknowledgments
 
-- [TensorFlow.org Colabs](https://www.tensorflow.org/tutorials)
-- [Hugging Face Documentation](https://huggingface.co/docs)
-- [Roboflow Notebooks Repository](https://github.com/roboflow/notebooks)
-- [Diffusers Controlling Generation](https://huggingface.co/docs/diffusers/using-diffusers/controlling_generation)
-- [Google I/O 2023 AI Sessions](https://io.google/2023/program/?q=ai)
-- [Segment Anything Model (SAM) Documentation](https://segment-anything.com/)
-- [DeepFloyd IF GitHub](https://github.com/deep-floyd/IF)
-- [YAMNet Documentation](https://github.com/tensorflow/models/tree/master/research/audioset/yamnet)
-- [MovieNet Dataset](http://movienet.site/)
+- TensorFlow and PyTorch teams for their deep learning frameworks
+- Hugging Face for their transformers library
+- Meta AI for the Segment Anything Model
+- Google Research for TensorFlow Hub models
+- The creators of the various pretrained models used in this demonstration
